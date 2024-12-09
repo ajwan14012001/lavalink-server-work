@@ -24,7 +24,7 @@
     ```powershell
     # Run Windows PowerShell as Administrator
     cd "C:\"
-    bitsadmin /transfer myDownloadJob /download /priority normal https://raw.githubusercontent.com/LucasB25/lavalink-server/main/LavalinkWindows/ServerSetup.ps1 C:\ServerSetup.ps1
+    bitsadmin /transfer myDownloadJob /download /priority normal https://raw.githubusercontent.com/ajwan14012001/lavalink-server-work/main/LavalinkWindows/ServerSetup.ps1 C:\ServerSetup.ps1
     & .\ServerSetup.ps1
     ```
 
@@ -79,7 +79,7 @@
 
 3. **Setup the server:**
     ```bash
-    wget -O LavalinkSetup.sh https://raw.githubusercontent.com/LucasB25/lavalink-server/main/SetupLinux/LavalinkSetup.sh
+    wget -O LavalinkSetup.sh https://raw.githubusercontent.com/ajwan14012001/lavalink-server-work/main/SetupLinux/LavalinkSetup.sh
     chmod +rwx LavalinkSetup.sh
     ./LavalinkSetup.sh
     ```
